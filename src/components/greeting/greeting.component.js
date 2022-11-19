@@ -8,11 +8,11 @@ export default function Greeting() {
 
   useEffect(() => {
     dispatch(fetchGreetings());
-  }, []);
+  }, [dispatch]);
   return (
     <>
       <h1>Greeting</h1>
       <p>{greeting}</p>
     </>
-  )
+  );
 }

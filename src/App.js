@@ -7,5 +7,5 @@ export default function App() {
     <Routes>
       <Route exact path="/" element={<Greeting />} />
     </Routes>
-  )
+  );
 }

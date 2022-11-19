@@ -13,7 +13,7 @@ function fetchGreetings() {
   return async (dispatch) => {
     const response = await fetch('http://localhost:4000/api/v1/greetings');
     const greetings = await response.json();
-    
+
     dispatch({
       type: FETCH_GREETINGS,
       payload: greetings,

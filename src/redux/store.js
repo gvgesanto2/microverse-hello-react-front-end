@@ -3,7 +3,7 @@ import greetingsReducer from './greeting/greeting.reducer';
 
 const store = configureStore({
   reducer: {
-    greeting: greetingsReducer
+    greeting: greetingsReducer,
   },
 });
 
